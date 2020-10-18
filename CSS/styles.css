@@ -1,0 +1,194 @@
+/**************************Attributes**************************/
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #686d76;
+  font-family: 'Waiting for the Sunrise', cursive;
+ }
+
+h2 {
+  font-size: 2.7rem;
+  margin: 50px auto 50px auto;
+  color: #686d76;
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+h3 {
+  color: #686d76;
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+h4 {
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+h5 {
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+hr {
+  margin: 60px auto 60px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #dbe2ef;
+  border-width: 5px;
+  width: 4%;
+}
+
+.top-container {
+  background-color: #eeeeee;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  padding-bottom: 5px;
+  background-color: #19d3da;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.wrapper {
+  margin: 15px;
+}
+
+.fa {
+  margin: 0 10px 0 10px;
+}
+
+/*Change icons size here*/
+.social-icons .fa {
+  font-size: 1.5em;
+}
+
+/*Change icons circle size and color here*/
+.social-icons .fa {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFF;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-circle .fa {
+  border-radius: 50%;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+  color: #FFF;
+  -webkit-box-shadow: 1px 1px 3px #333;
+  -moz-box-shadow: 1px 1px 3px #333;
+  box-shadow: 1px 1px 3px #333;
+}
+
+.social-icons .fa-facebook {
+  background-color: #3C599F;
+}
+
+.social-icons .fa-instagram {
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.social-icons .fa-github {
+  background-color: #070709;
+}
+
+.profile-pic {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+}
+
+.middle-bttns:hover{
+  color: #393e46;
+}
+
+.bottom-bttns:hover{
+  color: #eeeeee;
+}
+
+.bottom-bttns{
+  color: #373a40;
+}
+
+
+.title{
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 5.625rem;
+}
+
+.subtitle{
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.color1{
+  color: #19d3da;
+}
+
+.rights{
+  color: white;
+  margin: 0;
+}
+
+.social-media{
+  padding-top: 1px;
+}
+
+.skill-row{
+  line-height: 2;
+  text-align: left;
+  margin: 50px auto 150px auto;
+  width: 50%;
+}
+
+.maths-img{
+  margin: 30px;
+  float: left;
+  width: 25%;
+}
+
+.programming-img{
+  margin: 30px;
+  float: right;
+  width: 25%;
+}
+
+.contact-me{
+  margin: 70px auto 70px auto;
+}
+
+.about-me{
+  width: 25%;
+  margin: auto;
+}
